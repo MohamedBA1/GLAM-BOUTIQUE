@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Warm camel/tan medallion background matching the official GLAM Boutique identity -->
+    <radialGradient id="glamBadgeGrad" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#D5AC82" />
+      <stop offset="60%" stop-color="#CA9F76" />
+      <stop offset="100%" stop-color="#BD8F65" />
+    </radialGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Circular Base Badge -->
+  <circle cx="250" cy="250" r="238" fill="url(#glamBadgeGrad)" />
+
+  <!-- Dress, Halo, Botanical Leaves, and Flourishes in Crisp Pure White -->
+  <g fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Mannequin Head (Teardrop / Oval) -->
+    <path d="M 250 32 C 258 32 265 44 265 59 C 265 74 250 87 250 87 C 250 87 235 74 235 59 C 235 44 242 32 250 32 Z" stroke="none" />
+
+    <!-- Upper Ring / Halo with Curled Flourish Ends -->
+    <path d="M 200 110 C 174 138 178 178 198 206" fill="none" stroke-width="7" />
+    <path d="M 300 110 C 326 138 322 178 302 206" fill="none" stroke-width="7" />
+    <path d="M 198 112 C 214 88 232 82 250 82 C 268 82 286 88 302 112" fill="none" stroke-width="7" />
+
+    <!-- Delicate Shoulder Swirl Loops -->
+    <path d="M 226 136 C 210 128 196 144 208 160 C 220 172 236 156 226 138 C 222 132 214 132 212 138" fill="none" stroke-width="5" />
+    <path d="M 274 136 C 290 128 304 144 292 160 C 280 172 264 156 274 138 C 278 132 286 132 288 138" fill="none" stroke-width="5" />
+
+    <!-- Sweetheart Bodice and Gown Silhouette -->
+    <path d="M 234 116 C 242 122 250 122 250 122 C 250 122 258 122 266 116 C 274 140 268 166 262 186 C 284 212 314 240 322 254 C 282 268 244 286 250 298 C 240 290 216 274 178 254 C 186 240 216 212 238 186 C 232 166 226 140 234 116 Z" stroke="none" />
+
+    <!-- Draped Swirl Lines Inside Dress -->
+    <path d="M 258 152 C 242 200 192 246 164 260" fill="none" stroke="#CA9F76" stroke-width="9" />
+    <path d="M 264 162 C 252 206 212 248 186 258" fill="none" stroke="#FFFFFF" stroke-width="5" />
+
+    <!-- Lower Dress Hem Swooshes / Petal Ribbon Layer -->
+    <path d="M 160 260 C 215 266 250 284 250 300 C 250 284 285 266 340 260 C 310 284 270 304 250 324 C 230 304 190 284 160 260 Z" stroke="none" />
+
+    <!-- Left Floral Laurel Sprig (3 Leaves) -->
+    <g>
+      <path d="M 172 172 C 146 156 136 168 130 180 C 148 181 162 177 172 172 Z" stroke="none" />
+      <path d="M 178 194 C 146 189 140 205 138 218 C 158 215 170 206 178 194 Z" stroke="none" />
+      <path d="M 190 212 C 164 220 162 237 166 248 C 182 238 189 225 190 212 Z" stroke="none" />
+    </g>
+
+    <!-- Right Floral Laurel Sprig (3 Leaves) -->
+    <g>
+      <path d="M 328 172 C 354 156 364 168 370 180 C 352 181 338 177 328 172 Z" stroke="none" />
+      <path d="M 322 194 C 354 189 360 205 362 218 C 342 215 330 206 322 194 Z" stroke="none" />
+      <path d="M 310 212 C 336 220 338 237 334 248 C 318 238 311 225 310 212 Z" stroke="none" />
+    </g>
+  </g>
+
+  <!-- Typography "GLAM" in Signature Flowing Luxury Script -->
+  <!-- Vectorized paths for 100% font-independent perfection -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- G: flowing loop and curve -->
+    <path d="M 125 388 C 114 380 106 366 106 348 C 106 324 122 300 142 292 C 158 286 172 296 166 316 C 160 336 136 348 116 352 C 118 368 128 386 142 396 C 152 404 164 398 168 384 C 172 368 166 354 174 340" />
+    <!-- L: tall sweeping cursive loop -->
+    <path d="M 174 394 C 178 376 186 332 196 294 C 202 272 212 274 210 292 C 206 326 198 368 196 394 C 196 400 206 402 214 394" />
+    <!-- A: smooth rounded script oval with downstem -->
+    <path d="M 238 354 C 224 354 214 366 214 378 C 214 392 226 400 240 398 C 248 396 254 388 256 376 C 258 366 258 356 258 356 C 258 372 258 386 262 396 C 264 400 270 400 274 394" />
+    <!-- M: 3 fluid arched strokes -->
+    <path d="M 276 394 C 280 376 288 358 296 358 C 304 358 306 372 308 394 C 314 376 322 358 330 358 C 338 358 340 372 342 394 C 348 378 358 360 366 360 C 376 360 380 374 382 394 C 384 402 392 400 398 394" />
+  </g>
+
+  <!-- Typography "BOUTIQUE" in Clean Bold Luxury Sans/Serif with Generous Tracking -->
+  <text
+    x="250"
+    y="432"
+    text-anchor="middle"
+    font-family="'Cinzel', 'Plus Jakarta Sans', 'Montserrat', sans-serif"
+    font-size="33"
+    font-weight="800"
+    letter-spacing="10"
+    fill="#FFFFFF"
+  >
+    BOUTIQUE
+  </text>
+</svg>

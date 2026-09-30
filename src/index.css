@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F4E8D2;
+    color: #A48F70;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+  }
+
+  .font-serif {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-style: italic;
+  }
+}
+
+@layer components {
+  .btn-glam-primary {
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden px-8 py-3.5 bg-[#C3A684] text-[#F4E8D2] border border-[#C3A684] text-xs font-bold uppercase tracking-[0.2em] transition-all duration-500 shadow-[0_4px_20px_rgba(195,166,132,0.15)] hover:shadow-[0_8px_30px_rgba(195,166,132,0.4)] hover:-translate-y-1 hover:bg-[#A48F70] hover:border-[#A48F70] hover:text-[#F4E8D2];
+  }
+  
+  .btn-glam-secondary {
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden px-8 py-3.5 bg-transparent text-[#A48F70] border border-[#C3A684]/60 text-xs font-bold uppercase tracking-[0.2em] transition-all duration-500 shadow-sm hover:shadow-[0_8px_30px_rgba(195,166,132,0.25)] hover:-translate-y-1 hover:bg-[#C3A684] hover:text-[#F4E8D2] hover:border-[#C3A684];
+  }
+}
+
+/* Custom luxury gold & champagne scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4E8D2;
+}
+::-webkit-scrollbar-thumb {
+  background: #F6E7D2;
+  border: 1px solid rgba(195, 166, 132, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C3A684;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
